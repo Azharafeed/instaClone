@@ -13,6 +13,8 @@ router.get('/', function(req, res) {
   res.render('index', {footer: false});
 });
 
+
+
 router.get('/login', function(req, res) {
   res.render('login', {footer: false});
 });
